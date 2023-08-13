@@ -1,4 +1,4 @@
-#include <python.h>
+#inclucde "lists.h"
 #include <object.h>
 #include <listobject.h>
 
@@ -6,7 +6,7 @@
  * print_python_list_info - Prints basic info about Python lists.
  * @p: A PyObject list.
  */
-void print_python_list_info(PyObject *p)
+void print_python_list_info(PyObject * p)
 {
 	long int size = pyList_size(p);
 	int i;
