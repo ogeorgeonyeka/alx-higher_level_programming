@@ -3,7 +3,7 @@
  * print_python_list_info - Prints basic info about Python lists.
  * @p: A PyObject list.
  */
-void print_python_list_info(ctypes).py_Object * p)
+void print_python_list_info(pyObject*  *p)
 {
 	long size = pyList_size(p);
 	int i;
